@@ -100,6 +100,7 @@ int main()
     cout << "[O(logn)] 2^-2 = " << a.pow(2, -2) << endl;
     cout << "[O(logn)] 2^32 = " << a.pow(2, 32) << endl;
     cout << "[O(logn)] 2^45 = " << a.pow(2, 45) << endl;
+    cout << "[O(logn)] 1.2^1000 = " << a.pow(1.2, 1000) << endl;
     cout << "[O(logn)] -4.5^4 = " << a.pow(-4.5, 4) << endl;
     cout << "[O(logn)] -4.5^13 = " << a.pow(-4.5, 13) << endl;
 
